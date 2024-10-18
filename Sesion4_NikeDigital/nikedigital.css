@@ -1,0 +1,86 @@
+body {
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px; 
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+
+
+#Inicio{
+    background-image: url("imgs/fondo.jpg");
+    height: 500px;
+    padding-top: 200px;
+}
+
+#ListaInicio{
+list-style-type: none;
+text-align: center;
+font-size: 3em;
+color: white;
+}
+
+#ListaInicio li{
+   display: inline-block;
+    padding: 10px;;
+}
+#ListaInicio li a{
+    color: black;
+}
+#ListaInicio li a:hover{
+    color: darkgrey;
+    text-decoration: underline;
+}
+
+#Centro{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15%;
+    line-height: 2em;
+}
+
+h2{
+    font-size: 1em;
+    color: gray;
+}
+
+
+#Centro ul{
+    color: grey;
+    padding-top: 20%;
+    list-style-type: none;
+    color: darkgray;
+}
+
+#Centro ul a{
+    color: darkgrey;
+}
+    
+#Centro ul a:visited{
+    color: darkgrey;
+    text-decoration: none;
+}
+.AlgunSitio:hover{
+    color: aliceblue;
+    text-decoration:underline;
+}
+
+.NingunSitio:hover{
+    text-decoration:line-through;
+}
+
+
+#Pie{
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+
+#Pie ul{
+    color:white;
+    padding-top: 10%;
+    padding-left: 15%;
+    list-style-type: none;
+    line-height: 2em;
+}
