@@ -1,13 +1,46 @@
 body {
-    background-color: lightblue;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
   }
+
+main{
+
+  width: 50vw;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blanchedalmond;
+
+}
   
   h1 {
     color: white;
-    text-align: center;
+    color: darkslategray;
+    size: 3em;
+text-align: center;
   }
   
   li {
     font-family: verdana;
     font-size: 20px;
+    line-height: 2em;
   }
+
+  a:link{
+    color: darkslategray;
+    text-decoration: wavy;
+  }
+  a:visited{
+    color: darkslategray;
+    text-decoration: none;
+  }
+  a:hover{
+    
+    color: darkslategray;
+    text-decoration:underline
+  }
+ 
+
+
